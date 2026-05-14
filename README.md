@@ -25,3 +25,19 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests as rq
 import sqlite3 as sql
+
+
+Для чего каждая библиотека:
+requests	-> Получение HTML со страницы
+BeautifulSoup	-> Парсинг HTML
+pandas ->	Работа с таблицами (DataFrame)
+sqlite3 ->	Работа с локальной SQL-базой
+warnings ->	Отключение предупреждений
+
+
+
+Запуск -> установить зависимости:
+
+pip install pandas beautifulsoup4 requests
+python main.py
+
